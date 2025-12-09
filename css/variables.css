@@ -1,0 +1,72 @@
+:root {
+  /* brand */
+  --brand700: #3E0E14;
+  --brand600: #5C1620;
+  --brand500: #7A1F2A;
+  --brand400: #A94A55;
+  --brand300: #C97981;
+  --brand200: #DFA7AD;
+  --brand100: #F0D1D5;
+
+
+  /* grayscale */
+  --gray100: #FFFFFF;
+  --gray200: #FAFAFA;
+  --gray300: #EDEDED;
+  --gray400: #CCCCCC;
+  --gray500: #767676;
+  --gray600: #555555;
+  --gray700: #333333;
+
+  /* font size */
+  --title-important: 40px;
+  --title-sectionKorea: 36px;
+  --title-Manuscript: 32px;
+  --title-sectionEnglish: 28px;
+  --title-thumnail: 24px;
+
+  --text-lead: 22px;
+  --text-lg: 20px;
+  --text-md: 16px;
+  --text-sm: 14px;
+  --text-table: 16px;
+
+  /* spacing */
+  --content-spacing: 120px;
+}
+
+@media screen and (max-width: 1440px) {
+  :root {
+    --title-important: 36px;
+    --title-sectionKorea: 32px;
+    --title-Manuscript: 28px;
+    --title-sectionEnglish: 24px;
+    --title-thumnail: 20px;
+
+    --text-lead: 20px;
+    --text-lg: 18px;
+    --text-md: 16px;
+    --text-sm: 14px;
+    --text-table: 14px;
+
+    --content-spacing: 120px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  :root {
+    --title-important: 32px;
+    --title-sectionKorea: 28px;
+    --title-Manuscript: 24px;
+    --title-sectionEnglish: 20px;
+    --title-thumnail: 16px;
+
+    --text-lead: 18px;
+    --text-lg: 16px;
+    --text-md: 16px;
+    --text-sm: 14px;
+    --text-table: 12px;
+
+    --content-spacing: 80px;
+  }
+}
