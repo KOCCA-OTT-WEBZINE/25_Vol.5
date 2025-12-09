@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="방송영상·OTT 트렌드 2025 Vol. 4" content="방송영상·OTT 트렌드 2025 Vol. 4" />
+  <meta property="og:image" content="./img/assets/meta.png">
+  <title>방송영상 · OTT 트렌드</title>
+
+  <link rel="stylesheet" href="./css/variables.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/detail.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GH6ZRLY8VY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-GH6ZRLY8VY');
+  </script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/assets/favicon.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/assets/favicon.png" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="./index.html" class="logo-wrap">
+      <img src="./img/assets/logo-white.png" alt="로고" class="logo" />
+    </a>
+
+    <div class="nav-right">
+      <div class="nav">
+        <a href="./index.html#spotlight" class="nav-item">스포트라이트</a>
+        <a href="./index.html#people" class="nav-item">피플 인사이트</a>
+        <a href="./index.html#global" class="nav-item">글로벌 마켓 리포트</a>
+        <a href="./index.html#trend" class="nav-item">트렌드 하이라이트</a>
+        <a href="./index.html#data-point" class="nav-item">데이터 포인트</a>
+      </div>
+
+      <button id="menu-toggle" class="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="vol-info">2025 Vol. 4</div>
+    </div>
+
+    <!-- Fullscreen Mobile Modal -->
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="menu-header">
+        <p class="menu-title">메뉴</p>
+        <div class="menu-right">
+          <div class="vol-info">2025 Vol. 4</div>
+          <button id="menu-close">
+            <img src="./img/assets/close.png" alt="닫기" class="close-btn" />
+          </button>
+        </div>
+      </div>
+      <div id="menu-content" class="menu-content"></div>
+    </div>
+  </header>
+
+  <!-- Detail -->
+  <div>
+    <div id="progress-bar-container">
+      <div id="progress-bar"></div>
+    </div>
+
+    <!-- 배너 영역 -->
+    <div class="spotlight-banner" style="background-image: url('./img/manuscript2/thum.png');">
+      <div class="banner-overlay"></div>
+      <div class="banner-inner">
+        <div class="banner-meta">
+          <p class="banner-number">스포트라이트 2</p>
+          <p class="banner-theme">K-방송영상콘텐츠의 글로벌 경쟁력 강화</p>
+        </div>
+        <p class="banner-title">
+          생존 전략인가 전략적 동맹인가, 국제 공동제작 2.0
+        </p>
+      </div>
+    </div>
+
+    <!-- 본문 영역 -->
+    <div>
+
+      <!-- 리드 문단 -->
+      <div class="lead-section">
+        <div class="lead-container">
+          <p class="lead-text"><span class="quotes">“</span>방송영상콘텐츠 산업은 갈림길에 서 있다. 만들 것인가, 말 것인가. 주도권은 이미 방송사에서 온라인동영상서비스(OTT)로 넘어갔다. OTT 시장은 수천억 달러 규모로 성장했고, 매년 두 자릿수의 성장률을 기록 중이다. 제작비도 해마다 가파르게 치솟았다. 이제는 단일 국가나 개별 방송사‧제작사가 감당하기 어려운 상황이다. 그렇다면 어떻게 제작해야 할까. 국제 공동제작은 부차적 선택이 아니다. 세계 콘텐츠 시장을 무대 삼아 함께 제작해 위험을 나누고 힘을 모으는 <span class="bodyQuotes">‘</span>전략적 동맹<span class="bodyQuotes">’</span>으로서 주목받고 있다.<span
+              class="quotes">”</span></p>
+          <p class="lead-author">글. 방연주(대중문화평론가)</p>
+        </div>
+      </div>
+
+      <!-- 메인 -->
+      <div class="main-content">
+        <!-- Section 1 -->
+        <section class="section-block">
+          <div class="subtitle-wrap">
+            <div class="subtitle-bar-desktop"></div>
+
+            <div class="subtitle-inner">
+              <div class="subtitle-bar-mobile"></div>
+              <div class="subtitle-text">공동제작 1.0: 판권 수출에서 <span class="bodyQuotes">‘</span>플라잉 PD<span class="bodyQuotes">’</span>까지</div>
+            </div>
+          </div>
+
+          <div class="section-body">
+            <p class="paragraph">
+              공동제작의 시초는 이른바 <span class="bodyQuotes">‘</span>완제품 수출<span class="bodyQuotes">’</span>이었다. 1990년~2000년대까지 단순 방영 판권을 수출하거나 포맷‧리메이크 라이선스 계약이 대부분이었다. 중국에 <질투>·<사랑이 뭐길래>(MBC) 등의 판권이 판매되면서 해외 시장의 길이 열렸고, <별은 내 가슴에>(MBC)가 수출돼 화제를 모았다.<sup>1)</sup> 2000년대 들어 일본과 동남아시아 전역에서 <겨울연가>(KBS)가 한류 열풍을 일으켰다. <대장금>(MBC)도 2003년 대만 수출을 시작으로 중동‧유럽‧호주 등지로 뻗어갔다. 미디어 지형이 복잡해지기 전이라 방송사들은 국내 흥행작을 중심으로 해외 시장의 판로를 개척하는 데 중점을 뒀다. 콘텐츠 유통망을 넓혀가는 방식이었다.<br><br>
+
+              판권·포맷 수출이 늘자, 예능 공동제작이 등장했다. <나는 가수다>(MBC)를 시작으로 <span class="bodyQuotes">‘</span>예능 한류<span class="bodyQuotes">’</span>가 급물살을 탔다. <나는 가수다>가 중국 현지에서 리메이크될 당시 <span class="bodyQuotes">‘</span>플라잉PD<span class="bodyQuotes">’</span>라는 제작 방식이 주목받았다. 플라잉PD는 국내 제작진이 현지에 직접 파견돼 프로그램의 노하우를 전수하거나 자문하는 역할을 맡았다. 이후 <런닝맨>‧<K팝 스타>(SBS), <1박 2일>(KBS), <아빠! 어디가?>(MBC) 등은 PD와 작가들이 현지에 파견돼 프로그램의 완성도를 높였다. <슈퍼맨이 돌아왔다>‧<불후의 명곡>(KBS) 등의 판권도 잇달아 수출됐다. 콘텐츠의 협업 범위가 넓어진 만큼 각국의 문화적‧정서적 차이를 파악하는 게 관건이었다.<br><br>
+              
+              드라마 공동제작도 시도됐다. 다만 <span class="bodyQuotes">‘</span>공동제작 드라마<span class="bodyQuotes">’</span>라는 이름 아래 공동출자나 공동작업 없이 한국 인기 연예인의 출연만으로 이뤄진 경우가 많았다. 한국과 중국 CCTV가 공동제작한 다큐 드라마 <임진왜란 1592>(KBS)의 경우엔 제작비를 50대 50<sup>2)</sup>을 내며 합작을 시도하기도 했다. 판권 수출 규모도 커졌다. 2014년 <별에서 온 그대>(SBS)는 <span class="bodyQuotes">‘</span>한류 열풍<span class="bodyQuotes">’</span>을 달궜고, <태양의 후예>(KBS)가 회당 23만 달러(한화 약 3억 원)<sup>3)</sup>, <달의 연인-보보경심 려>(SBS)가 회당 40만 달러(한화 약 4억 원)에 판매되며 최고가를 경신했다. 해외 콘텐츠 시장의 가능성을 확인했지만, 사드 배치 이후 한한령(限韓令·한류 제한령)으로 공동제작에 제동이 걸렸다.
+            </p>
+          </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="section-block">
+          <div class="subtitle-wrap">
+            <div class="subtitle-bar-desktop"></div>
+
+            <div class="subtitle-inner">
+              <div class="subtitle-bar-mobile"></div>
+              <div class="subtitle-text">공동제작 2.0: 기획‧제작‧캐스팅‧마케팅까지 <span class="bodyQuotes">‘</span>새로운 공식<span class="bodyQuotes">’</span></div>
+            </div>
+          </div>
+
+          <div class="section-body">
+            <p class="paragraph">
+              넷플릭스가 지난 2016년 국내에 상륙하면서 판도가 바뀌었다. 방송사 중심 체제에서 벗어나 글로벌‧토종 OTT가 치열하게 경쟁했다. 넷플릭스가 150억 원에 불과했던 콘텐츠 투자를 약 8,000억 원(2022년)<sup>4)</sup>까지 늘리며 독주 체제를 굳혔다. 과열된 경쟁으로 제작비는 급등했다. 방송사의 연간 광고 매출(약 8,354억 원)<sup>5)</sup>은 10년 전과 비교해 반토막 났다. 방송사, 제작사, 플랫폼 모두 수익 개선이 절실해진 가운데 공동제작은 기획 단계부터 글로벌 협업 방식으로 진화하는 중이다.<br><br>
+
+              최근 시도된 공동제작 방식은 변화의 흐름을 보여준다. 그간 판권을 판매하거나 노하우를 전하던 때와 달리 아예 처음부터 세계 시장을 겨냥하고 있다. CJ ENM은 지난 6월 아마존 프라임에서 일본판 <내 남편과 결혼해줘>를 공개했다. 리메이크권 수출에 그치지 않고, 제작‧캐스팅‧현지화 작업에 국내 제작진이 참여했다. <더 글로리>를 맡았던 안길호 PD가 연출을, <1리터의 눈물>의 작가 오시마 사토미가 각본을 썼다. 한국판을 맡았던 스튜디오드래곤 손자영 PD와 CJ ENM 이상화 PD가 책임프로듀서로 참여했다. 일본 TBS와 공동제작한 <첫사랑 DOGs>도 현재 일본에서 방영<sup>6)</sup> 중이며, tvN에도 편성됐다. CJ ENM은 지난 2023년 미국 제작사 스카이댄스와 <운명을 읽는 기계>(2023)를 함께 제작했고, 지난 7월엔 중동 법인을 설립하는 등 공동제작의 저변을 넓히는 데 시동을 걸고 있다.<br><br>
+
+              중앙그룹 계열 SLL은 일본 TV아사히와 드라마 <마물>을 공동제작했다. 지난 4월 공개된 <마물>은 SLL와 일본 방송사가 함께 만든 첫 작품이다. <옥씨부인전>의 진혁 PD가 연출을 맡았다. 일본 WOWOW가 판권 구매에 적극적이었던 드라마 <괴물>(JTBC)도 지난 7월 리메이크 방송됐다. 해외의 국내 작품을 향한 관심은 <span class="bodyQuotes">‘</span>K-콘텐츠<span class="bodyQuotes">’</span>에 대한 잠재적 수요를 엿볼 수 있다. 이에 SLL은 자체 지식재산권(IP)을 활용해 미국‧일본 등지에 제작형 수출을 확대한다는 전략을 밝혔다. 지난 5월엔 대만 콘텐츠진흥원과 드라마·영화 공동 개발 업무협약을 맺었다.<br><br>
+              
+              국내 제작사의 공동제작 움직임도 가시화되고 있다. 디즈니플러스 시리즈 <무빙>을 만든 제작사 미스터로맨스는 프랑스 스튜디오 카날과 <암흑가의 세 사람>을 OTT 드라마 시리즈<sup>7)</sup>를 선보일 예정이다. SBS 자회사인 스튜디오S도 일본의 NTT도코모와 요시모토흥업의 합작법인과 함께 <스토브리그>(SBS)를 리메이크하는 동시에 글로벌 비즈니스 사업에 협력한다고 밝혔다. 제작사 빅인스퀘어와 스튜디오플로우는 웹툰 <개인적인 택시>를 미드폼 드라마로 제작한다. 이번 작품은 일본 후지TV와 공동제작 계약<sup>8)</sup>을 체결해 아시아‧북미‧유럽 시장을 향한 프로젝트로 진행된다.
+            </p>
+
+            <div class="image-wrap">
+              <img src="./img/manuscript2/img1.png" alt="이미지 1" class="section-image" />
+              <div class="image-caption">
+                <p>일본판 <내 남편과 결혼해줘>, 일본 드라마 <첫사랑 DOGs>, 일본 드라마 <마물></p>
+                <p>(출처: CJENM, SLL)</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section class="section-block">
+          <div class="subtitle-wrap">
+            <div class="subtitle-bar-desktop"></div>
+
+            <div class="subtitle-inner">
+              <div class="subtitle-bar-mobile"></div>
+              <div class="subtitle-text">공동제작의 빛과 그림자</div>
+            </div>
+          </div>
+
+          <div class="section-body">
+            <p class="paragraph">
+              이처럼 공동제작의 출발점이 달라졌다. 콘텐츠 제작 과정에 인력과 자본도 함께 투여되는 흐름이다. 과거엔 방송사 중심으로 해외 판로 개척이 주요했다면, 글로벌 시장을 공략하기 위해 복수의 제작사나 투자자들이 제작비와 업무를 분담하고, 콘텐츠를 기획 개발‧제작 유통 ‧마케팅까지 참여해 권리를 나누는 시스템으로 재편되고 있다. 공동제작한 작품이 흥행한다면 내수시장의 한계를 딛고 새로운 가능성을 탐색할 수 있다. 물론 드라마나 예능 등 장르의 속성에 따라 차이가 존재할 테지만, <span class="bodyQuotes">‘</span>K-팝<span class="bodyQuotes">’</span>처럼 IP 다각화를 통한 지속적인 수익을 창출하는 기반으로 삼을 수도 있다.<br><br>
+              
+              반면 고려할 지점도 많아졌다. 판권을 판매하거나 제작 노하우를 전하는 소극적 방식을 넘어 아예 처음부터 기획‧제작‧마케팅 등 다양한 주체들이 협업하는 만큼 그 과정은 훨씬 복잡해질 수밖에 없다. 글로벌 공동제작이 주목받을수록 국내 창작 생태계에 대한 점검이 요구되는 배경이다. 현재 국내 공동제작 펀드 지원, 세제지원, 저작권 보호를 위한 법적 토대 마련 등이 당면 과제로 꼽히고 있다. 제작 과정에서는 수익 배분, IP의 귀속 문제를 사전에 촘촘하게 설계하고, 계약 조항을 검토하는 작업이 필요하다. 다양한 이해관계자들이 얽히는 만큼 콘텐츠 제작 인력 구성, 촬영 및 후반 작업, 최종 결과물 등을 종합적으로 고려해 반영해야 한다.<br><br>
+              
+              돌발 변수도 있다. 아무리 사전 기획 단계가 철저하더라도 창작 산업의 특성상 시나리오나 제작 방식을 수정‧조율하는 일이 비일비재하다. 각국의 문화적 차이 혹은 서로 다른 제작 시스템은 불협화음을 가져올 수 있다. 현재 공동제작은 중국‧일본을 비롯해 동남아시아가 주요 타깃이지만, 북미‧유럽 시장으로 확장할수록 현지 사정을 고려하며 글로벌 파트너와 발을 잘 맞춰나가야 한다. 작품을 완성한 후엔 투자금을 회수하는 과정이나 흥행에 실패한 경우 손해배상에 따른 소송 문제가 생길 수 있다.
+            </p>
+          </div>
+        </section>
+
+        <!-- Section 4 -->
+        <section class="section-block">
+          <div class="subtitle-wrap">
+            <div class="subtitle-bar-desktop"></div>
+
+            <div class="subtitle-inner">
+              <div class="subtitle-bar-mobile"></div>
+              <div class="subtitle-text">공동제작, 창작 생태계에 던진 과제</div>
+            </div>
+          </div>
+
+          <div class="section-body">
+            <p class="paragraph">
+              공동제작은 급변한 미디어 환경 속에서 <span class="bodyQuotes">‘</span>생존 전략<span class="bodyQuotes">’</span>으로 기능해 왔다. 그러나 간과하지 말아야 할 점은 콘텐츠 생태계의 근간은 여전히 <span class="bodyQuotes">‘</span>창작<span class="bodyQuotes">’</span>이라는 사실이다. 수백억 원이 투입된 대작도 흥행을 담보하지 못하고, 저예산 작품이 의외의 성과를 내는 경우도 많다. 검증된 웹툰·웹소설 원작이 대세지만, 대중은 끊임없이 신선한 이야기를 갈망한다. 따라서 공동제작 2.0은 자본과 제작에 머물 게 아니라, 창작 생태계에 어떤 방식으로 반영할지를 함께 고민해야 한다.<br><br>
+              
+              공동제작은 서로 다른 국가와 문화권이 협업하는 구조이기에 자연스럽게 분업과 전문화를 요구한다. 이 지점에서 창작 시스템의 고도화가 필요하다. 넷플릭스가 공격적인 투자와 함께 국가별·장르별 포트폴리오를 확장해 온 것처럼 글로벌 시장에서 협업하려면 창작자의 역할도 세분화된 전문성을 전제로 해야 한다. 한국은 여전히 <span class="bodyQuotes">‘</span>원톱 작가<span class="bodyQuotes">’</span> 체제가 강하지만 중국과 영미권은 프로듀서와 작가들이 팀을 이뤄 집단 창작을 하는 방식이 보편적이다. <b>공동제작의 확산은 장르·캐릭터·대본 등 창작자의 전문화가 필요하다.<sup>9)</sup></b><br><br>
+              
+              <b>사후적 IP 활용 전략도 필수다.</b> 콘텐츠의 생명력은 끝나지 않는다. K팝이 콘서트·굿즈·게임으로 수익을 확장했듯 공동제작 콘텐츠도 지속 가능한 수익 모델을 만들어야 한다. 팬덤의 반응을 기획 단계에서부터 반영하지 않으면 해외자본 의존도만 높아지고, 국내 제작사의 자생력은 약화될 수 있다. <span class="bodyQuotes">‘</span>K-방송영상콘텐츠<span class="bodyQuotes">’</span>가 주목받는 지금, 국제 공동제작은 단순한 수익 모델이 아니다. 중소 제작사부터 대형 스튜디오, 창작자까지 합리적 역할 분담을 이뤄낼 때 새로운 도약의 해법이 될 수 있다.
+            </p>
+          </div>
+        </section>
+
+        <!-- Reference List Section -->
+        <div class="reference-list">
+          <!-- 제목 -->
+          <div class="reference-title">주석</div>
+
+          <!-- 리스트 -->
+          <ol class="reference-items">
+            <li><span class="text-brand">1)</span> 문화체육관광부(2017). <한중 문화콘텐츠산업 협업전략 연구>, p.43.</li>
+            <li>
+              <a href="https://www.hani.co.kr/arti/culture/entertainment/760336.html"
+                target="_blank"><span class="text-brand">2)</span> 남지은(2016.9.7). 만듦새도 시점도 화제 <임진왜란 1592> 팩트의 힘. <한겨레>.
+              </a>
+            </li>
+            <li><span class="text-brand">3)</span> 김아영‧박경진‧박진희(2024). <한중일 OTT 플랫폼의 현재와 과제: 드라마 유통 및 제작현황을 중심으로>, p.130. 국제문화교류진흥원.</li>
+            <li>
+              <a href="https://www.kocca.kr/globalOTT/vol06/insight/insight1.html"
+                target="_blank"><span class="text-brand">4)</span> 임정수(2024). OTT의 새로운 국면과 라이브러리 콘텐츠의 확대. <글로벌 OTT트렌드>. 2024. Vol6.
+              </a>
+            </li>
+            <li><span class="text-brand">5)</span> 방송통신위원회(2025.3.4). <2024 방송산업실태조사></li>
+            <li>
+              <a href="https://www.joongang.co.kr/article/25337823"
+                target="_blank"><span class="text-brand">6)</span> 하남현(2025.5.22). 한국 드라마 같은데 외국인? K제작사, 이젠 현지서 만든다, <중앙일보>.
+              </a>
+            </li>
+            <li>
+              <a href="https://www.yna.co.kr/view/AKR20241101086900371"
+                target="_blank"><span class="text-brand">7)</span> 김지선(2024.11.1). <span class="bodyQuotes">‘</span>무빙<span class="bodyQuotes">’</span> 만든 미스터로맨스, 佛스튜디오와 OTT드라마 공동제작, <연합뉴스>.
+              </a>
+            </li>
+            <li>
+              <a href="https://www.etnews.com/20250915000152"
+                target="_blank"><span class="text-brand">8)</span> 이준수(2025.9.15). 차태현, <span class="bodyQuotes">‘</span>개인적인 택시<span class="bodyQuotes">’</span> 운전대 잡는다… 후지TV와 글로벌 제작. <전자신문>.
+              </a>
+            </li>
+            <li>
+              <a href="http://www.ktrwawebzine.kr/page/vol229/06.html"
+                target="_blank"><span class="text-brand">9)</span> 허정원(2025). 제작사가 살아남아야 K-드라마도 산다. <방송작가>, 2025년 4월호.
+              </a>
+            </li>
+          </ol>
+        </div>
+
+        <!-- Author Profile -->
+        <div class="author-profile">
+          <img src="./img/manuscript2/profile.png" alt="방연주" class="author-img" />
+          <div class="author-info">
+            <p class="author-name">
+              방연주
+              <br class="mobile-br" />
+              <span class="author-affiliation">(대중문화평론가)</span>
+            </p>
+            <p class="author-description">
+              대중문화평론가로 활동하고 있다. 디지털 미디어와 방송영상 콘텐츠의 변화를 분석하고, 대중문화 현상에 대한 비평을 제시하고 있다. 현재 &lt;PD저널>, <우리문화> 등 다양한 매체에 기고 중이다. 
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Post Navigator -->
+      <div class="post-navigator">
+        <a href="./spotlight_1.html" class="post-nav prev">
+          <div div class="post-nav-header">
+            <img src="./img/assets/arrow.png" alt="화살표" class="arrow" />
+            <p>이전 글</p>
+          </div>
+          <span class="post-nav-title">K-방송영상콘텐츠의 새로운 시대를 열다:<br> <span class="bodyQuotes">‘</span>성장통<span class="bodyQuotes">’</span>을 넘어서 <span class="bodyQuotes">‘</span>콘텐츠와 플랫폼이 상생하는 미디어 생태계<span class="bodyQuotes">’</span>로</span>
+        </a>
+
+        <div class="post-nav-div"></div>
+
+        <a href="./spotlight_3.html" class="post-nav next">
+          <div class="post-nav-header">
+            <p>다음 글</p>
+            <img src="./img/assets/arrow.png" alt="화살표" class="arrow rotate" />
+          </div>
+          <span class="post-nav-title">국제 공동제작 인센티브와 K-콘텐츠의 미래</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Anchor Button -->
+    <div id="anchor-button" class="anchor-button hidden">
+      <button class="anchor-button-inner" onclick="scrollToTop()">
+        <img src="./img/assets/TopArrow.png" alt="Top Button" />
+      </button>
+      <button class="anchor-button-inner" onclick="scrollToBottom()">
+        <img src="./img/assets/BottomArrow.png" alt="Bottom Button" />
+      </button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- 상단: 로고와 설명 -->
+      <div class="footer-top-wrap">
+        <div class="footer-top">
+
+          <div class="footer-logo-wrap">
+            <img src="./img/assets/kocca-logo-white.png" alt="한국콘텐츠진흥원 로고" class="footer-logo" />
+
+            <p class="footer-description">
+              &lt;방송영상·OTT 트렌드&gt;에 실린 글과 사진은 한국콘텐츠진흥원의 허가 없이 사용할 수 없으며,
+              <br class="footer-hidden" />
+              본지의 내용은 필자 개인의 의견으로 한국콘텐츠진흥원의 공식 견해가 아닙니다.
+            </p>
+          </div>
+
+          <!-- 발행 정보 -->
+          <div class="footer-info">
+            <div class="footer-info-group">
+              <div>
+                <p>발행인</p>
+                <p>유현석(한국콘텐츠진흥원 원장직무대행)</p>
+              </div>
+              <div>
+                <p>발행일</p>
+                <p>2025년 10월 17일</p>
+              </div>
+              <div>
+                <p>발행처</p>
+                <div style="display: flex; gap:4px; flex-direction: column;">
+                  <p>한국콘텐츠진흥원 콘텐츠산업정책연구센터 산업정책팀</p>
+                  <p>전라남도 나주시 교육길 35</p>
+                  <p>T. 1566-1114 https://www.kocca.kr</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-info-group">
+              <div>
+                <p>기획·편집</p>
+                <div style="display: flex; gap:4px; flex-direction: column;">
+                  <p>한국콘텐츠진흥원 콘텐츠산업정책연구센터 산업정책팀</p>
+                  <p>(주)컬쳐미디어랩</p>
+                </div>
+              </div>
+
+              <div>
+                <p>기획위원</p>
+                <div style="display: flex; gap:4px; flex-direction: column;">
+                  <p>이성민(한국방송통신대학교 미디어영상학과 부교수)</p>
+                  <p>채정화(서강대학교 ICT법경제연구소 연구교수)</p>
+                  <p>곽규태(순천향대학교 글로벌문화산업학과 교수)</p>
+                  <p>윤희경(어나더스토리 대표)</p>
+                </div>
+              </div>
+
+              <div>
+                <p>ISSN</p>
+                <div>
+                  <p>3091-6771(online)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-buttons">
+          <a href="./download/2025_방송영상&OTT트렌드_Vol4_PDF_최종본.pdf" class="footer-button-outline"
+            download="2025_방송영상&OTT트렌드_Vol4_PDF">2025 Vol.4 PDF 다운받기</a>
+          <a href="https://www.kocca.kr/kocca/common/Mailling.do?menuNo=204918" target="_blank"
+            class="footer-button-filled">구독 신청하기</a>
+        </div>
+      </div>
+
+
+      <div class="footer-bottom">
+        <p>© 2025 Korea Creative Content Agency. All rights reserved.</p>
+        <img src="./img/assets/new_img_opentype04.png" alt="공공누리 제4유형 : 출처표시 + 상업적 이용금지 + 변경금지" />
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/utils.js"></script>
+  <script src="./js/menu.js"></script>
+</body>
+
+</html>
