@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   new Swiper(".main-banner-swiper", {
     loop: true,
-    autoplay: { delay: 3000 },
+    // autoplay: { delay: 3000 },
     pagination: {
       el: ".main-banner-swiper .swiper-pagination",
       clickable: true,
@@ -111,10 +111,10 @@ document.addEventListener("DOMContentLoaded", () => {
         slideToClickedSlide: false,
         grabCursor: true,
         loop: slideCount >= 3,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
+        // autoplay: {
+        //   delay: 3000,
+        //   disableOnInteraction: false,
+        // },
         navigation: {
           nextEl,
           prevEl,
