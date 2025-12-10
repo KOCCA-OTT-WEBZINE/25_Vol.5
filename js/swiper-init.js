@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const contents = [
     {
       sectionName: "스포트라이트",
-      theme: "K-방송영상콘텐츠의 글로벌 경쟁력 강화",
-      item: "K-방송영상콘텐츠의 새로운 시대를 열다:<br><span class='bodyQuotes'>‘</span>성장통<span class='bodyQuotes'>’</span>을 넘어서 <span class='bodyQuotes'>‘</span>콘텐츠와 플랫폼이 상생하는 미디어 생태계<span class='bodyQuotes'>’</span>로",
+      theme: "방송영상콘텐츠 창작 생태계 구조 변화를 조망하다",
+      item: "크리에이터 이코노미 대격변:<br>니치 마켓의 선봉에서 미디어 생태계의 중심으로",
       img: "./img/manuscript1/banner.png",
       imgMobile: "./img/manuscript1/banner-m.png",
       bgPosition: "center center",
@@ -11,35 +11,35 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       sectionName: "피플 인사이트",
-      theme: "글로벌 프로젝트로 경쟁력 강화하는 제작사를 만나다!",
-      item: "이엘TV·스튜디오잔치 백헌석 대표<br>스튜디오모닥 김인식 PD",
-      img: "./img/manuscript5/banner.png",
-      imgMobile: "./img/manuscript5/banner-m.png",
+      theme: "콘텐츠의 격전지, 새로운 플레이어를 만나다!",
+      item: "스튜디오수제 백승엽 이사•PD<br>CJ ENM 박수진 PD",
+      img: "./img/manuscript4/banner.png",
+      imgMobile: "./img/manuscript4/banner-m.png",
       bgPosition: "right center",
       bgPositionMobile: "center center",
     },
     {
       sectionName: "글로벌 마켓 리포트",
       theme: "",
-      item: "콘텐츠로 글로벌 일류(日流) 꿈꾸는 일본,<br>새로운 <span class='bodyQuotes'>‘</span>쿨 재팬<span class='bodyQuotes'>’</span> 전략",
-      img: "./img/manuscript7/banner.png",
-      imgMobile: "./img/manuscript7/banner-m.png",
+      item: "중국 마이크로드라마 산업의 성장과 K-콘텐츠의 새로운 기회",
+      img: "./img/manuscript6/banner.png",
+      imgMobile: "./img/manuscript6/banner-m.png",
       bgPosition: "right center",
       bgPositionMobile: "center center",
     },
     {
       sectionName: "트렌드 하이라이트",
       theme: "",
-      item: "생성형 AI 시대, 창작의 경계를 묻다:<br>「생성형 AI 활용 저작물의 저작권 등록 안내서」 내용과 의미",
-      img: "./img/manuscript10/banner.png",
-      imgMobile: "./img/manuscript10/banner-m.png",
+      item: "국내 OTT, 로컬을 넘어 글로벌로 간다:<br>티빙(TVING) 글로벌 진출의 의의와 과제",
+      img: "./img/manuscript9/banner.png",
+      imgMobile: "./img/manuscript9/banner-m.png",
       bgPosition: "center center",
       bgPositionMobile: "center center",
     },
     {
       sectionName: "데이터 포인트",
       theme: "",
-      item: "글로벌 OTT 플랫폼의 2024 애뉴얼 리포트 분석",
+      item: "2026년 글로벌 미디어 시장 전망",
       img: "./img/manuscript13/banner.png",
       imgMobile: "./img/manuscript13/banner-m.png",
       bgPosition: "center right",
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   new Swiper(".main-banner-swiper", {
     loop: true,
-    // autoplay: { delay: 3000 },
+    autoplay: { delay: 3000 },
     pagination: {
       el: ".main-banner-swiper .swiper-pagination",
       clickable: true,
@@ -111,10 +111,10 @@ document.addEventListener("DOMContentLoaded", () => {
         slideToClickedSlide: false,
         grabCursor: true,
         loop: slideCount >= 3,
-        // autoplay: {
-        //   delay: 3000,
-        //   disableOnInteraction: false,
-        // },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
         navigation: {
           nextEl,
           prevEl,

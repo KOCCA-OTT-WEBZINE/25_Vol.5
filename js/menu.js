@@ -1,71 +1,72 @@
 const spotlightItem = {
   0: {
-    title: "K-방송영상콘텐츠의 새로운 시대를 열다: ‘성장통’을 넘어서 ‘콘텐츠와 플랫폼이 상생하는 미디어 생태계’로",
-    author: { name: "강재원, 박성호", affiliation: "동국대학교 미디어커뮤니케이션학과 교수, MBC플러스 방송본부 부국장" },
+    title: "크리에이터 이코노미 대격변: 니치 마켓의 선봉에서 미디어 생태계의 중심으로",
+    author: { name: "최세정", affiliation: "고려대학교 미디어대학 교수" },
   },
   1: {
-    title: "생존 전략인가 전략적 동맹인가, 국제 공동제작 2.0",
-    author: { name: "방연주", affiliation: "대중문화평론가" },
+    title: "‘팬심’이 곧 경쟁력...크리에이터 콘텐츠 생태계 이끄는 ‘팬덤 이코노미’",
+    author: { name: "이은주", affiliation: "서울신문 기자" },
   },
   2: {
-    title: "국제 공동제작 인센티브와 K-콘텐츠의 미래",
-    author: { name: "박세진", affiliation: "한양대학교 미디어학과 부교수" },
-  },
-    3: {
-    title: "K-콘텐츠, 플랫폼을 바꾸면 시장이 열린다: FAST · OTT의 새로운 기회",
-    author: { name: "김종원", affiliation: "제레미레터 대표" },
-  },
-};
-
-const globalItem = {
-  0: {
-    title: "콘텐츠로 글로벌 일류(日流) 꿈꾸는 일본, 새로운 ‘쿨 재팬’ 전략",
-    author: { name: "김영덕", affiliation: "前 인천문화재단 대표" },
-  },
-  1: {
-    title: "영상콘텐츠의 글로벌 유통 시대, 더빙과 타이틀 각색을 통한 현지화 전략",
-    author: { name: "한영주", affiliation: "성균관대학교 메타사회연구소 선임연구원" },
-  },
-  2: {
-    title: "K-콘텐츠, 아시아를 넘어 중동으로",
-    author: { name: "김수완", affiliation: "한국외국어대학교 융합인재대학 중동이슬람 전략모듈 교수" },
+    title: "크리에이터 이코노미와 광고전략: 연결을 넘어 관계로, 관계를 넘어 시장으로",
+    author: { name: "권예지", affiliation: "한국방송광고진흥공사 미디어광고연구소 선임연구위원" },
   },
 };
 
 const peopleItem = {
   0: {
-    title: "국제 공동제작, 한국 콘텐츠의 가치를 한 단계 올려주다",
-    author: { name: "백헌석", affiliation: "이엘TV·스튜디오잔치 대표" },
+    title: "유튜브의 바다에서 디지털 스튜디오의 생존 전략을 답하다",
+    author: { name: "백승엽", affiliation: "스튜디오수제 이사•PD" },
   },
   1: {
-    title: "서로 다른 문화의 차이를 콘텐츠로 녹여내다",
-    author: { name: "김인식", affiliation: "스튜디오모닥 PD" },
+    title: "콘텐츠의 확장성, 세심한 밑작업이 만든다",
+    author: { name: "박수진", affiliation: "CJ ENM PD" },
+  },
+};
+
+const globalItem = {
+  0: {
+    title: "중국 마이크로드라마 산업의 성장과 K-콘텐츠의 새로운 기회",
+    author: { name: "오창학", affiliation: "광운대학교 미디어커뮤니케이션학부 부교수" },
+  },
+  1: {
+    title: "인도로 가는 K-방송영상콘텐츠 산업: 드라마를 중심으로",
+    author: { name: "김정곤", affiliation: "대외경제정책연구원 연구위원" },
+  },
+  2: {
+    title: "메가 IP로 성장한 키즈콘텐츠, 문화의 새로운 중심축으로 떠오르다",
+    author: { name: "유진희", affiliation: "중앙대학교 첨단영상대학원 겸임교수" },
   },
 };
 
 const trendItem = {
   0: {
-    title: "생성형 AI 시대, 창작의 경계를 묻다: 「생성형 AI 활용 저작물의 저작권 등록 안내서」 내용과 의미",
-    author: { name: "김현숙", affiliation: "디지털지식재산연구소 소장" },
+    title: "국내 OTT, 로컬을 넘어 글로벌로 간다: 티빙(TVING) 글로벌 진출의 의의와 과제",
+    author: { name: "전은선", affiliation: "CJ ENM 전략지원팀" },
   },
   1: {
-    title: "OTT 예능, 드라마 넘어 새 판 짠다",
-    author: { name: "권혜미", affiliation: "전자신문 기자" },
+    title: "K-팝, 장르에서 콘텐츠로",
+    author: { name: "이규탁", affiliation: "한국조지메이슨대학교 국제학과 교수" },
   },
   2: {
-    title: "K-콘텐츠 축제의 장, ‘2025 국제방송영상마켓(BCWW)’를 다녀오다!",
+    title: "화면 밖으로 나온 방송영상콘텐츠, 체험으로 확장하다.",
+    author: { name: "박꽃", affiliation: "이투데이 문화전문 기자" },
+  },
+  3: {
+    title: "AI가 이끄는 넥스트 프로덕션 시대: 창작의 확장, 제작의 새로운 패러다임",
+    author: { name: "손영준", affiliation: "오길비코리아 AE" },
   },
 };
 
 const dataPointItem = {
   0: {
-    title: "글로벌 OTT 플랫폼의 2024 애뉴얼 리포트 분석",
+    title: "2026년 글로벌 미디어 시장 전망",
   },
   1: {
-    title: "글로벌 동향 분석: 국가별 로컬 TV 프로그램의 넷플릭스 순위",
+    title: "글로벌 동향 분석: 국가별 인기 장르",
   },
   3: {
-    title: "국내 방송콘텐츠 글로벌 유통 현황",
+    title: "미국의 TV 시청 트렌드",
   },
 };
 
