@@ -5,7 +5,7 @@ const spotlightItem = {
   },
   1: {
     title: "‘팬심’이 곧 경쟁력...크리에이터 콘텐츠 생태계 이끄는 ‘팬덤 이코노미’",
-    author: { name: "이은주", affiliation: "서울 신문 기자" },
+    author: { name: "이은주", affiliation: "《서울신문》 기자" },
   },
   2: {
     title: "크리에이터 이코노미와 광고전략: 연결을 넘어 관계로, 관계를 넘어 시장으로",
