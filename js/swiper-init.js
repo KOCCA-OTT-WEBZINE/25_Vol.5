@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       sectionName: "피플 인사이트",
       theme: "콘텐츠의 격전지, 새로운 플레이어를 만나다!",
-      item: "스튜디오수제 백승엽 이사•PD<br>CJ ENM 박수진 PD",
+      item: "스튜디오 수제 백승엽 이사•PD<br>CJ ENM 박수진 PD",
       img: "./img/manuscript4/banner.png",
       imgMobile: "./img/manuscript4/banner-m.png",
       bgPosition: "right center",

@@ -5,7 +5,7 @@ const spotlightItem = {
   },
   1: {
     title: "‘팬심’이 곧 경쟁력...크리에이터 콘텐츠 생태계 이끄는 ‘팬덤 이코노미’",
-    author: { name: "이은주", affiliation: "서울신문 기자" },
+    author: { name: "이은주", affiliation: "서울 신문 기자" },
   },
   2: {
     title: "크리에이터 이코노미와 광고전략: 연결을 넘어 관계로, 관계를 넘어 시장으로",
@@ -16,7 +16,7 @@ const spotlightItem = {
 const peopleItem = {
   0: {
     title: "유튜브의 바다에서 디지털 스튜디오의 생존 전략을 답하다",
-    author: { name: "백승엽", affiliation: "스튜디오수제 이사•PD" },
+    author: { name: "백승엽", affiliation: "스튜디오 수제 이사•PD" },
   },
   1: {
     title: "콘텐츠의 확장성, 세심한 밑작업이 만든다",
@@ -50,7 +50,7 @@ const trendItem = {
   },
   2: {
     title: "화면 밖으로 나온 방송영상콘텐츠, 체험으로 확장하다.",
-    author: { name: "박꽃", affiliation: "이투데이 문화전문 기자" },
+    author: { name: "박꽃", affiliation: "이투데이 문화전문기자" },
   },
   3: {
     title: "AI가 이끄는 넥스트 프로덕션 시대: 창작의 확장, 제작의 새로운 패러다임",
