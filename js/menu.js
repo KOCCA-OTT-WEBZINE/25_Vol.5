@@ -50,7 +50,7 @@ const trendItem = {
   },
   2: {
     title: "화면 밖으로 나온 방송영상콘텐츠, 체험으로 확장하다.",
-    author: { name: "박꽃", affiliation: "이투데이 문화전문기자" },
+    author: { name: "박꽃", affiliation: "《이투데이》 문화전문기자" },
   },
   3: {
     title: "AI가 이끄는 넥스트 프로덕션 시대: 창작의 확장, 제작의 새로운 패러다임",
