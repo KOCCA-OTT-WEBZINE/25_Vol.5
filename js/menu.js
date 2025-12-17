@@ -26,7 +26,7 @@ const peopleItem = {
 
 const globalItem = {
   0: {
-    title: "중국 마이크로드라마 산업의 성장과 K-콘텐츠의 새로운 기회",
+    title: "중국 마이크로 드라마 산업의 성장과 K-콘텐츠의 새로운 기회",
     author: { name: "오창학", affiliation: "광운대학교 미디어커뮤니케이션학부 부교수" },
   },
   1: {

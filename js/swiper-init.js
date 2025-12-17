@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       sectionName: "글로벌 마켓 리포트",
       theme: "",
-      item: "중국 마이크로드라마 산업의 성장과 K-콘텐츠의 새로운 기회",
+      item: "중국 마이크로 드라마 산업의 성장과 K-콘텐츠의 새로운 기회",
       img: "./img/manuscript6/banner.png",
       imgMobile: "./img/manuscript6/banner-m.png",
       bgPosition: "right center",
