@@ -4,7 +4,7 @@ const spotlightItem = {
     author: { name: "최세정", affiliation: "고려대학교 미디어대학 교수" },
   },
   1: {
-    title: "‘팬심’이 곧 경쟁력...크리에이터 콘텐츠 생태계 이끄는 ‘팬덤 이코노미’",
+    title: "<span class="bodyQuotes">‘</span>팬심<span class="bodyQuotes">’</span>이 곧 경쟁력...크리에이터 콘텐츠 생태계 이끄는 <span class="bodyQuotes">‘</span>팬덤 이코노미<span class="bodyQuotes">’</span>",
     author: { name: "이은주", affiliation: "《서울신문》 기자" },
   },
   2: {
